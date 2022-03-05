@@ -570,8 +570,8 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: J_Lumbar
       parentName: Raiz
-      position: {x: 0.0000028722625, y: 0.044330556, z: 0.00018140787}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+      position: {x: 0, y: 0.04433056, z: 0.0001814079}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: J_Torax
       parentName: J_Lumbar
@@ -631,12 +631,12 @@ ModelImporter:
     - name: J_Anular_DER
       parentName: J_Palma_DER
       position: {x: 0.020356, y: 0.00041839998, z: 0.0078033297}
-      rotation: {x: 0.00053998025, y: 0.05535654, z: 0.02144682, w: 0.9982362}
+      rotation: {x: 0.00053999573, y: 0.055356547, z: 0.021446763, w: 0.9982362}
       scale: {x: 1, y: 1, z: 1}
     - name: J_Anular_DER1
       parentName: J_Anular_DER
       position: {x: 0.010075, y: -0.0010892, z: 0.00255766}
-      rotation: {x: 0.0061165835, y: 0.0014114267, z: -0.023492986, w: 0.99970436}
+      rotation: {x: 0.006116407, y: 0.0014113969, z: -0.023492306, w: 0.9997043}
       scale: {x: 1, y: 1, z: 1}
     - name: J_Anular_DER2
       parentName: J_Anular_DER1
@@ -651,12 +651,12 @@ ModelImporter:
     - name: J_Corazon_DER
       parentName: J_Palma_DER
       position: {x: 0.022418, y: 0.00041839998, z: -0.0016845999}
-      rotation: {x: 0.00012093254, y: 0.008509993, z: 0.006232596, w: 0.9999444}
+      rotation: {x: 0.00012093333, y: 0.008509873, z: 0.006232488, w: 0.9999444}
       scale: {x: 1, y: 1, z: 1}
     - name: J_Corazon_DER1
       parentName: J_Corazon_DER
       position: {x: 0.00939, y: -0.0010892, z: 0.001305}
-      rotation: {x: 0.0027223446, y: -0.017034883, z: -0.033806354, w: 0.99927956}
+      rotation: {x: 0.0027222363, y: -0.017034583, z: -0.033805106, w: 0.99927956}
       scale: {x: 1, y: 1, z: 1}
     - name: J_Corazon_DER2
       parentName: J_Corazon_DER1
@@ -676,7 +676,7 @@ ModelImporter:
     - name: J_Indice_DER1
       parentName: J_Indice_DER
       position: {x: 0.0093869995, y: -0.0010892, z: 0.00032760002}
-      rotation: {x: 0.0008650203, y: -0.0020332783, z: -0.031546544, w: 0.9994999}
+      rotation: {x: 0.00086502125, y: -0.002033271, z: -0.031546544, w: 0.9994999}
       scale: {x: 1, y: 1, z: 1}
     - name: J_Indice_DER2
       parentName: J_Indice_DER1
@@ -691,17 +691,17 @@ ModelImporter:
     - name: J_Menique_DER
       parentName: J_Palma_DER
       position: {x: 0.014168, y: 0.00041839998, z: 0.01646621}
-      rotation: {x: 0.0009007058, y: 0.10291308, z: 0.031885073, w: 0.9941788}
+      rotation: {x: 0.000900734, y: 0.102913104, z: 0.031884994, w: 0.99417883}
       scale: {x: 1, y: 1, z: 1}
     - name: J_Menique_DER1
       parentName: J_Menique_DER
       position: {x: 0.009102, y: -0.0010892, z: 0.0032584}
-      rotation: {x: 0.00972082, y: -0.012826577, z: -0.03144157, w: 0.99937606}
+      rotation: {x: 0.0097210305, y: -0.012826694, z: -0.031442188, w: 0.99937606}
       scale: {x: 1, y: 1, z: 1}
     - name: J_Menique_DER2
       parentName: J_Menique_DER1
       position: {x: 0.010190001, y: 0.0002968, z: 0.00302939}
-      rotation: {x: 0.02900733, y: -0.0011317431, z: 0.049569022, w: 0.9983488}
+      rotation: {x: 0.029007245, y: -0.0011319449, z: 0.049569353, w: 0.9983487}
       scale: {x: 1, y: 1, z: 1}
     - name: J_Menique_DER3
       parentName: J_Menique_DER2
@@ -711,12 +711,12 @@ ModelImporter:
     - name: J_Pulgar_DER
       parentName: J_Palma_DER
       position: {x: 0.003443, y: 0.000049299997, z: -0.0223105}
-      rotation: {x: 0.01570335, y: 0.09878566, z: 0.014803408, w: 0.99487466}
+      rotation: {x: 0.01570298, y: 0.09878564, z: 0.014803015, w: 0.9948747}
       scale: {x: 1, y: 1, z: 1}
     - name: J_Pulgar_DER1
       parentName: J_Pulgar_DER
       position: {x: 0.00826, y: -0.0007201, z: -0.0039568}
-      rotation: {x: -0.016241204, y: -0.04255092, z: -0.026160412, w: 0.9986197}
+      rotation: {x: -0.016241506, y: -0.04255112, z: -0.026160944, w: 0.9986197}
       scale: {x: 1, y: 1, z: 1}
     - name: J_Pulgar_DER2
       parentName: J_Pulgar_DER1
@@ -756,12 +756,12 @@ ModelImporter:
     - name: J_Anular_IZQ
       parentName: J_Palma_IZQ
       position: {x: -0.02035631, y: -0.0004183917, z: -0.0078033214}
-      rotation: {x: 0.00054001145, y: 0.055357262, z: 0.021446416, w: 0.9982362}
+      rotation: {x: 0.0005400001, y: 0.05535738, z: 0.02144683, w: 0.9982361}
       scale: {x: 1, y: 1, z: 1}
     - name: J_Anular_IZQ1
       parentName: J_Anular_IZQ
       position: {x: -0.010074855, y: 0.0010891668, z: -0.0025576558}
-      rotation: {x: 0.011991688, y: -0.026243774, z: -0.03855625, w: 0.99883974}
+      rotation: {x: 0.01199156, y: -0.026243797, z: -0.038555745, w: 0.9988398}
       scale: {x: 1, y: 1, z: 1}
     - name: J_Anular_IZQ2
       parentName: J_Anular_IZQ1
@@ -776,12 +776,12 @@ ModelImporter:
     - name: J_Corazon_IZQ
       parentName: J_Palma_IZQ
       position: {x: -0.022418901, y: -0.0004183917, z: 0.0016845972}
-      rotation: {x: 0.000120978955, y: 0.00851298, z: 0.006234802, w: 0.9999443}
+      rotation: {x: 0.000120982695, y: 0.008513346, z: 0.0062351734, w: 0.9999444}
       scale: {x: 1, y: 1, z: 1}
     - name: J_Corazon_IZQ1
       parentName: J_Corazon_IZQ
       position: {x: -0.009389267, y: 0.0010891668, z: -0.0013049477}
-      rotation: {x: 0.004555506, y: -0.055088952, z: -0.034960747, w: 0.9978589}
+      rotation: {x: 0.0045555374, y: -0.055088863, z: -0.034960844, w: 0.9978589}
       scale: {x: 1, y: 1, z: 1}
     - name: J_Corazon_IZQ2
       parentName: J_Corazon_IZQ1
@@ -801,7 +801,7 @@ ModelImporter:
     - name: J_Indice_IZQ1
       parentName: J_Indice_IZQ
       position: {x: -0.009386936, y: 0.0010891668, z: -0.00032764033}
-      rotation: {x: 0.0032721148, y: -0.03195901, z: -0.04408127, w: 0.99851125}
+      rotation: {x: 0.0032720496, y: -0.03195919, z: -0.044080615, w: 0.9985113}
       scale: {x: 1, y: 1, z: 1}
     - name: J_Indice_IZQ2
       parentName: J_Indice_IZQ1
@@ -816,12 +816,12 @@ ModelImporter:
     - name: J_Menique_IZQ
       parentName: J_Palma_IZQ
       position: {x: -0.014168537, y: -0.0004183917, z: -0.016466204}
-      rotation: {x: 0.0009007058, y: 0.102907695, z: 0.03188215, w: 0.9941795}
+      rotation: {x: 0.0009006838, y: 0.10290779, z: 0.03188272, w: 0.9941794}
       scale: {x: 1, y: 1, z: 1}
     - name: J_Menique_IZQ_F1
       parentName: J_Menique_IZQ
       position: {x: -0.00910221, y: 0.0010891668, z: -0.0032583969}
-      rotation: {x: 0.012753063, y: -0.04981033, z: -0.035424735, w: 0.99804884}
+      rotation: {x: 0.012752845, y: -0.049810525, z: -0.035424072, w: 0.99804884}
       scale: {x: 1, y: 1, z: 1}
     - name: J_Menique_IZQ_F2
       parentName: J_Menique_IZQ_F1
@@ -836,12 +836,12 @@ ModelImporter:
     - name: J_Pulgar_IZQ
       parentName: J_Palma_IZQ
       position: {x: -0.0034430649, y: -0.0000492836, z: 0.022310507}
-      rotation: {x: 0.015716467, y: 0.09881085, z: 0.014830844, w: 0.9948717}
+      rotation: {x: 0.015716493, y: 0.09881085, z: 0.014830899, w: 0.9948717}
       scale: {x: 1, y: 1, z: 1}
     - name: J_Pulgar_IZQ1
       parentName: J_Pulgar_IZQ
       position: {x: -0.0082608545, y: 0.0007200588, z: 0.0039568064}
-      rotation: {x: -0.016243143, y: -0.042581845, z: -0.026162917, w: 0.99861825}
+      rotation: {x: -0.016242921, y: -0.042581726, z: -0.026162462, w: 0.99861836}
       scale: {x: 1, y: 1, z: 1}
     - name: J_Pulgar_IZQ2
       parentName: J_Pulgar_IZQ1
@@ -876,7 +876,7 @@ ModelImporter:
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
+  autoGenerateAvatarMappingIfUnspecified: 0
   animationType: 3
   humanoidOversampling: 1
   avatarSetup: 1
