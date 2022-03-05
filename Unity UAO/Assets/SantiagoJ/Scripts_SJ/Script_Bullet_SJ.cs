@@ -18,11 +18,13 @@ public class Script_Bullet_SJ : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("Choque");
+        Script_Player_SJ player = collision.gameObject.GetComponent<Script_Player_SJ>();
         if (collision.gameObject.GetComponent<Script_Player_SJ>())
         {
             Debug.Log("Choque con el jugador");
+            player.Die();
         }
-        
+        Destroy(gameObject, 1);
+
     }
 }

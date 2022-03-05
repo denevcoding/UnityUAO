@@ -8,6 +8,7 @@ public class Script_Torreta_SJ : MonoBehaviour
     public GameObject bullet;
     public Transform aimer;
     public float speed;
+    public GameObject player;
 
     // Start is called before the first frame update
     void Start()
@@ -23,24 +24,14 @@ public class Script_Torreta_SJ : MonoBehaviour
             GameObject bulletTemp = Instantiate(bullet);
             bulletTemp.transform.position = aimer.position;
 
+            Vector3 dir = player.transform.position - aimer.transform.position;
+            Debug.DrawLine(aimer.transform.position, dir, Color.blue, 5);
+            dir.Normalize();
+            Debug.DrawLine(aimer.transform.position, dir, Color.green, 5);
+            dir *= fuerzaDisparo;
+
             Rigidbody rbBulletTemp = bulletTemp.GetComponent<Rigidbody>();
-            rbBulletTemp.AddForce(aimer.forward * fuerzaDisparo, ForceMode.Force);
-        }
-        if (Input.GetKey(KeyCode.W))
-        {
-            transform.Translate(-speed * Time.deltaTime, 0, 0);
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            transform.Translate(speed * Time.deltaTime, 0, 0);
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.Translate(0, 0, -speed * Time.deltaTime);
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.Translate(0, 0, speed * Time.deltaTime);
+            rbBulletTemp.AddForce(dir, ForceMode.Force);
         }
     }
 }
