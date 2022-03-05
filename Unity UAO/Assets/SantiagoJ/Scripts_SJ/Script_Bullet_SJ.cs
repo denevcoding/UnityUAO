@@ -13,6 +13,6 @@ public class Script_Bullet_SJ : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Destroy(gameObject, 2);
     }
 }

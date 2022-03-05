@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2893981334732694556}
   - component: {fileID: 2893981334732694559}
   - component: {fileID: 2893981334732694558}
+  - component: {fileID: 186736411916211278}
   m_Layer: 0
   m_Name: Bullet_SJ
   m_TagString: Untagged
@@ -108,3 +109,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1c5a49d45b354e97ac65bcd622f2804, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &186736411916211278
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2893981334732694552}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
