@@ -5,7 +5,7 @@ using UnityEngine;
 public class JCSensor : MonoBehaviour
 {
 
-    public JCtorreta torreta
+    public JCtorreta torreta;
     // Start is called before the first frame update
     void Start()
     {

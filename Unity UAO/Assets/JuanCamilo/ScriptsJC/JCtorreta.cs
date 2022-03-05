@@ -51,4 +51,15 @@ public class JCtorreta : MonoBehaviour
 
 
     }
+
+    public bool IsAlignToTarget (Transform targetpos)
+    {
+        bool IsAlignment = false;
+        Vector3 TorretToTarget = Vector3.zero;
+
+        float AlignmentPercentage = Vector3.Dot(Aimer.transform.right, TorretToTarget);
+
+        return IsAlignment;
+    }
+
 }

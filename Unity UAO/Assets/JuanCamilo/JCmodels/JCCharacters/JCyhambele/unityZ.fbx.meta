@@ -1,0 +1,478 @@
+fileFormatVersion: 2
+guid: b686980d6953946e092a0d29615a9bcf
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Head' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: unityZ(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MODELO
+      parentName: unityZ(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ctrl_Base
+      parentName: unityZ(Clone)
+      position: {x: 0.0020857232, y: -0.4817518, z: 0.00900005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ctrl_Raiz
+      parentName: Ctrl_Base
+      position: {x: -0.0020885954, y: 0.35807914, z: -0.011909005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Raiz
+      parentName: unityZ(Clone)
+      position: {x: -0.0000028722625, y: 0.36176473, z: -0.0029089563}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Cadera
+      parentName: Raiz
+      position: {x: 0.0000028722625, y: -0.040211182, z: -0.0005434875}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Pierna_IZQ
+      parentName: J_Cadera
+      position: {x: -0.045876257, y: -0.027178075, z: -0.0005699127}
+      rotation: {x: 0.497634, y: 0.5023549, z: 0.497634, w: 0.50235486}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: J_Rodilla_IZQ
+      parentName: J_Pierna_IZQ
+      position: {x: -0.12187529, y: 7.96585e-17, z: -1.3322676e-17}
+      rotation: {x: -0.000000029802322, y: -0.000000029802322, z: 0.0047208667, w: 0.9999889}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Tobillo_IZQ
+      parentName: J_Rodilla_IZQ
+      position: {x: -0.13384524, y: -0.000012255267, z: 0.00000052704684}
+      rotation: {x: -0.012557021, y: -0.020529578, z: -0.06918365, w: 0.9973136}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: J_Empeine_IZQ
+      parentName: J_Tobillo_IZQ
+      position: {x: -0.036522664, y: 0.00000004174834, z: 0.0000000016174576}
+      rotation: {x: -0.007404954, y: 0.022897832, z: -0.7118791, w: 0.7018897}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Puntapie_IZQ
+      parentName: J_Empeine_IZQ
+      position: {x: -0.039780624, y: 6.661338e-18, z: 0}
+      rotation: {x: 0.053917386, y: -0.70504814, z: 0.05391732, w: 0.70504814}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1}
+    - name: J_Pierna_DER
+      parentName: J_Cadera
+      position: {x: 0.04670174, y: -0.027178075, z: -0.0005699127}
+      rotation: {x: 0.497634, y: 0.5023549, z: 0.497634, w: 0.50235486}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: J_Rodilla_DER
+      parentName: J_Pierna_DER
+      position: {x: -0.12187529, y: -2.1486645e-12, z: 1.7763568e-17}
+      rotation: {x: -0.000000029802322, y: -0.000000029802322, z: 0.0047208667, w: 0.9999889}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: J_Tobillo_DER
+      parentName: J_Rodilla_DER
+      position: {x: -0.13383256, y: 1.6882443e-11, z: 6.822048e-11}
+      rotation: {x: 0.012556988, y: 0.020529525, z: -0.0691844, w: 0.99731356}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: J_Empeine_DER
+      parentName: J_Tobillo_DER
+      position: {x: -0.03652127, y: 2.4861179e-12, z: -3.361489e-13}
+      rotation: {x: 0.007404956, y: -0.022897717, z: -0.71187854, w: 0.7018903}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000006}
+    - name: J_Puntapie_DER
+      parentName: J_Empeine_DER
+      position: {x: -0.039780624, y: 6.661338e-18, z: 0}
+      rotation: {x: 0.053917345, y: -0.7050482, z: 0.053917307, w: 0.70504826}
+      scale: {x: 0.99999994, y: 1, z: 0.9999998}
+    - name: J_Lumbar
+      parentName: Raiz
+      position: {x: 0.0000028722625, y: 0.044330556, z: 0.00018140787}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Torax
+      parentName: J_Lumbar
+      position: {x: -0, y: 0.037520006, z: 0.0007580927}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Esternon
+      parentName: J_Torax
+      position: {x: -0, y: 0.049659602, z: 0.00005481158}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ctrl
+      parentName: J_Esternon
+      position: {x: -0, y: 8.961091e-11, z: 6.473361e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CTRL_Clavicula_IZQ
+      parentName: Ctrl
+      position: {x: -0.032620516, y: 0.016060667, z: -0.0034484433}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CTRL_Clavicula_DER
+      parentName: Ctrl
+      position: {x: 0.029463693, y: 0.016060667, z: -0.0034484433}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Clavicula_DER
+      parentName: J_Esternon
+      position: {x: 0.029463693, y: 0.008223182, z: -0.001533799}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Hombro_DER
+      parentName: J_Clavicula_DER
+      position: {x: 0.045761704, y: 0.004554718, z: 0.00072979304}
+      rotation: {x: 1, y: -0, z: -0, w: -3.1389313e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Codo_DER
+      parentName: J_Hombro_DER
+      position: {x: 0.084026605, y: -0.0001496, z: 0.004045614}
+      rotation: {x: -0, y: -0.08636198, z: 0.0009163895, w: 0.99626344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Muneca_DER
+      parentName: J_Codo_DER
+      position: {x: 0.072048, y: -0.00019339999, z: -0.01822512}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Palma_DER
+      parentName: J_Muneca_DER
+      position: {x: 0.030973, y: -0.00067199994, z: 0.0009949}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ctrl_Dedos_DER
+      parentName: J_Palma_DER
+      position: {x: 0.0000000064392087, y: 1.5296937e-10, z: 2.4414061e-11}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Menique_DER
+      parentName: J_Palma_DER
+      position: {x: 0.014168, y: 0.00041839998, z: 0.01646621}
+      rotation: {x: 0.0009007058, y: 0.10291308, z: 0.031885073, w: 0.9941788}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Menique_DER1
+      parentName: J_Menique_DER
+      position: {x: 0.009102, y: -0.0010892, z: 0.0032584}
+      rotation: {x: 0.00972082, y: -0.012826577, z: -0.03144157, w: 0.99937606}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Menique_DER2
+      parentName: J_Menique_DER1
+      position: {x: 0.010190001, y: 0.0002968, z: 0.00302939}
+      rotation: {x: -2.646978e-23, y: 3.430984e-24, z: 0.00000001164153, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: J_Menique_DER3
+      parentName: J_Menique_DER2
+      position: {x: 0.00661, y: 0.00015499999, z: 0.0019278}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: J_Anular_DER
+      parentName: J_Palma_DER
+      position: {x: 0.020356, y: 0.00041839998, z: 0.0078033297}
+      rotation: {x: 0.00053998025, y: 0.05535654, z: 0.02144682, w: 0.9982362}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Anular_DER1
+      parentName: J_Anular_DER
+      position: {x: 0.010075, y: -0.0010892, z: 0.00255766}
+      rotation: {x: 0.0061165835, y: 0.0014114267, z: -0.023492986, w: 0.99970436}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Anular_DER2
+      parentName: J_Anular_DER1
+      position: {x: 0.011567, y: 0.0002968, z: 0.0030294}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Anular_DER3
+      parentName: J_Anular_DER2
+      position: {x: 0.008537, y: 0.00015499999, z: 0.00247861}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Corazon_DER
+      parentName: J_Palma_DER
+      position: {x: 0.022418, y: 0.00041839998, z: -0.0016845999}
+      rotation: {x: 0.00012093254, y: 0.008509993, z: 0.006232596, w: 0.9999444}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Corazon_DER1
+      parentName: J_Corazon_DER
+      position: {x: 0.00939, y: -0.0010892, z: 0.001305}
+      rotation: {x: 0.0027223446, y: -0.017034883, z: -0.033806354, w: 0.99927956}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Corazon_DER2
+      parentName: J_Corazon_DER1
+      position: {x: 0.012116999, y: 0.0002968, z: 0.0008262}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Corazon_DER3
+      parentName: J_Corazon_DER2
+      position: {x: 0.010741, y: 0.00015499999, z: 0.0011016}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Indice_DER
+      parentName: J_Palma_DER
+      position: {x: 0.020768, y: 0.00041839998, z: -0.0111724995}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Indice_DER1
+      parentName: J_Indice_DER
+      position: {x: 0.0093869995, y: -0.0010892, z: 0.00032760002}
+      rotation: {x: 0.0008650203, y: -0.0020332783, z: -0.031546544, w: 0.9994999}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Indice_DER2
+      parentName: J_Indice_DER1
+      position: {x: 0.010741, y: 0.0002968, z: 0.0002754}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Indice_DER3
+      parentName: J_Indice_DER2
+      position: {x: 0.011842, y: 0.00015499999, z: -0.0002754}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Pulgar_DER
+      parentName: J_Palma_DER
+      position: {x: 0.003443, y: 0.000049299997, z: -0.0223105}
+      rotation: {x: 0.01570335, y: 0.09878566, z: 0.014803408, w: 0.99487466}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Pulgar_DER1
+      parentName: J_Pulgar_DER
+      position: {x: 0.00826, y: -0.0007201, z: -0.0039568}
+      rotation: {x: -0.016241204, y: -0.04255092, z: -0.026160412, w: 0.9986197}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Pulgar_DER2
+      parentName: J_Pulgar_DER1
+      position: {x: 0.008537999, y: 0.0002968, z: -0.0057834}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Clavicula_IZQ
+      parentName: J_Esternon
+      position: {x: -0.032620516, y: 0.008223182, z: -0.001533799}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Hombro_IZQ
+      parentName: J_Clavicula_IZQ
+      position: {x: -0.042604845, y: 0.004554702, z: 0.00072979287}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Codo_IZQ
+      parentName: J_Hombro_IZQ
+      position: {x: -0.084026776, y: 0.00014956696, z: -0.00404561}
+      rotation: {x: -0, y: -0.086363055, z: 0.00091654237, w: 0.9962633}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: J_Muneca_IZQ
+      parentName: J_Codo_IZQ
+      position: {x: -0.072047405, y: 0.00019342115, z: 0.018225117}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Palma_IZQ
+      parentName: J_Muneca_IZQ
+      position: {x: -0.030973027, y: 0.0006720297, z: -0.0009949096}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Ctrl_Dedos_IZQ
+      parentName: J_Palma_IZQ
+      position: {x: 0.0000000019401558, y: 3.2235434e-10, z: 1.5103749e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Menique_IZQ
+      parentName: J_Palma_IZQ
+      position: {x: -0.014168537, y: -0.0004183917, z: -0.016466204}
+      rotation: {x: 0.0009006951, y: 0.10290834, z: 0.031882692, w: 0.9941794}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: J_Menique_IZQ_F1
+      parentName: J_Menique_IZQ
+      position: {x: -0.00910221, y: 0.0010891668, z: -0.0032583969}
+      rotation: {x: 0.009719384, y: -0.01282171, z: -0.031436518, w: 0.9993763}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: J_Menique_IZQ_F2
+      parentName: J_Menique_IZQ_F1
+      position: {x: -0.010189825, y: -0.00029675945, z: -0.0030294075}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Menique_IZQ_F3
+      parentName: J_Menique_IZQ_F2
+      position: {x: -0.0066096163, y: -0.0001550188, z: -0.0019278048}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Anular_IZQ
+      parentName: J_Palma_IZQ
+      position: {x: -0.02035631, y: -0.0004183917, z: -0.0078033214}
+      rotation: {x: 0.0005400089, y: 0.055358097, z: 0.021446837, w: 0.99823606}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: J_Anular_IZQ1
+      parentName: J_Anular_IZQ
+      position: {x: -0.010074855, y: 0.0010891668, z: -0.0025576558}
+      rotation: {x: 0.006116092, y: 0.0014117807, z: -0.023490628, w: 0.9997044}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: J_Anular_IZQ2
+      parentName: J_Anular_IZQ1
+      position: {x: -0.011566828, y: -0.00029675945, z: -0.0030294075}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Anular_IZQ3
+      parentName: J_Anular_IZQ2
+      position: {x: -0.008537421, y: -0.0001550188, z: -0.0024786063}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Corazon_IZQ
+      parentName: J_Palma_IZQ
+      position: {x: -0.022418901, y: -0.0004183917, z: 0.0016845972}
+      rotation: {x: 0.00012098753, y: 0.008513644, z: 0.0062353364, w: 0.9999443}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: J_Corazon_IZQ1
+      parentName: J_Corazon_IZQ
+      position: {x: -0.009389267, y: 0.0010891668, z: -0.0013049477}
+      rotation: {x: 0.0027223616, y: -0.017037855, z: -0.033808235, w: 0.9992794}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: J_Corazon_IZQ2
+      parentName: J_Corazon_IZQ1
+      position: {x: -0.01211763, y: -0.00029675945, z: -0.00082620204}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Corazon_IZQ3
+      parentName: J_Corazon_IZQ2
+      position: {x: -0.010740627, y: -0.0001550188, z: -0.0011016027}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Indice_IZQ
+      parentName: J_Palma_IZQ
+      position: {x: -0.020768829, y: -0.0004183917, z: 0.011172516}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: J_Indice_IZQ1
+      parentName: J_Indice_IZQ
+      position: {x: -0.009386936, y: 0.0010891668, z: -0.00032764033}
+      rotation: {x: 0.00086502405, y: -0.002033919, z: -0.031544402, w: 0.9994999}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: J_Indice_IZQ2
+      parentName: J_Indice_IZQ1
+      position: {x: -0.010740627, y: -0.00029675945, z: -0.00027540067}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Indice_IZQ3
+      parentName: J_Indice_IZQ2
+      position: {x: -0.011842229, y: -0.0001550188, z: 0.00027540067}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Pulgar_IZQ
+      parentName: J_Palma_IZQ
+      position: {x: -0.0034430649, y: -0.0000492836, z: 0.022310507}
+      rotation: {x: 0.015702458, y: 0.09880525, z: 0.014802398, w: 0.9948728}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: J_Pulgar_IZQ1
+      parentName: J_Pulgar_IZQ
+      position: {x: -0.0082608545, y: 0.0007200588, z: 0.0039568064}
+      rotation: {x: -0.016243579, y: -0.04258223, z: -0.026163591, w: 0.9986183}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: J_Pulgar_IZQ2
+      parentName: J_Pulgar_IZQ1
+      position: {x: -0.008537421, y: -0.00029675945, z: 0.005783414}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Cuello
+      parentName: J_Esternon
+      position: {x: -0, y: 0.042337373, z: 0.000042291314}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Cabeza_Bottom
+      parentName: J_Cuello
+      position: {x: -0, y: 0.03849945, z: 0.0018046355}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: J_Cabeza_Top
+      parentName: J_Cabeza_Bottom
+      position: {x: -0, y: 0.27283788, z: -0.02928969}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
