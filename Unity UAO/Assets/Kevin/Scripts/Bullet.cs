@@ -15,4 +15,17 @@ public class Bullet : MonoBehaviour
     {
         
     }
+
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        KVPlayer player = collision.gameObject.GetComponent<KVPlayer>();
+        if (player)
+        {
+            //Debug.Log("Choque con player");
+            player.Die();
+        }
+
+        Destroy(this.gameObject);
+    }
 }
