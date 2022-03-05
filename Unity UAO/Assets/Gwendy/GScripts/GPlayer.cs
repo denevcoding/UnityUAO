@@ -15,4 +15,12 @@ public class GPlayer : MonoBehaviour
     {
         
     }
+
+   public void Die ()
+    {
+       
+        gameObject.SetActive(false);
+        //Destroy(this.gameObject);
+    }
+
 }

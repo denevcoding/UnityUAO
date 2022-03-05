@@ -15,4 +15,24 @@ public class GBullet : MonoBehaviour
     {
         
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        GPlayer player = collision.gameObject.GetComponent<GPlayer>();
+
+
+        if (player)
+        {
+            Debug.Log("Choque con player");
+            player.Die();
+        }
+        
+
+        Destroy(this.gameObject);
+    }
+
+
+   
 }
+
+
