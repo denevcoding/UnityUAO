@@ -23,6 +23,10 @@ public class KVTorret : MonoBehaviour
             Debug.Log("Disparo");
             GameObject bulletTemp = Instantiate(bullet);
             bullet.transform.position = aimer.position;
+
+            Rigidbody rBullet = bulletTemp.GetComponent<Rigidbody>();
+            Vector3 shootForce = aimer.right * force;
+            rBullet.AddForce(shootForce, ForceMode.Impulse);
         }
     }
 }
