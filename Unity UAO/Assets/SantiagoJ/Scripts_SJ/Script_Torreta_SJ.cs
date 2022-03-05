@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Script_Torreta_SJ : MonoBehaviour
 {
+    public float fuerzaDisparo;
+    public GameObject bullet;
+    public Transform aimer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +17,10 @@ public class Script_Torreta_SJ : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            GameObject bulletTemp = Instantiate(bullet);
+            bulletTemp.transform.position = aimer.position;
+        }
     }
 }
