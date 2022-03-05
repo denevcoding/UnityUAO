@@ -15,4 +15,8 @@ public class APPlayer : MonoBehaviour
     {
         
     }
+
+    public void Die() {
+        gameObject.SetActive(false);
+    }
 }

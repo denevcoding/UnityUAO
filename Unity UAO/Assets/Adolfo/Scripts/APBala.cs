@@ -13,6 +13,19 @@ public class APBala : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+
+        APPlayer player = collision.gameObject.GetComponent<APPlayer>();
+        if (player)
+        {
+            Debug.Log("Shoke con player");
+            player.Die();
+        }
+
+        //Destroy(this.gameObject);
     }
 }
