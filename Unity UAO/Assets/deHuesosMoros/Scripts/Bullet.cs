@@ -15,4 +15,19 @@ public class Bullet : MonoBehaviour
     {
         
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Player1 player = collision.gameObject.GetComponent<Player1>();
+        if (player)
+        {
+            Debug.Log("Choque con player");
+            player.Die();
+        }
+
+        Destroy(this.gameObject);
+
+    }
+
+   
 }

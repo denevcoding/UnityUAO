@@ -15,4 +15,13 @@ public class Player1 : MonoBehaviour
     {
         
     }
+
+    public void Die()
+    {
+        ChangeValues();
+    }
+
+    private void ChangeValues() {
+        gameObject.SetActive(false);
+    }
 }

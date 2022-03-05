@@ -199,13 +199,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 785447594}
-  m_LocalRotation: {x: -0, y: 0.23770306, z: -0, w: 0.97133785}
-  m_LocalPosition: {x: -10.04, y: 1, z: -10}
+  m_LocalRotation: {x: -0, y: 0.5951057, z: -0, w: 0.8036474}
+  m_LocalPosition: {x: -7.32, y: 1, z: 0.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 27.502, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 73.04, z: 0}
 --- !u!1 &800324074
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,7 +296,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 800324074}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.86, y: 0.24, z: 3.31}
+  m_LocalPosition: {x: 0.52, y: 0.24, z: 3.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -497,6 +497,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3142780988984816002, guid: f30b88451d6e84da7a216bd531efe3a3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.687
+      objectReference: {fileID: 0}
     - target: {fileID: 7501226979818213891, guid: f30b88451d6e84da7a216bd531efe3a3, type: 3}
       propertyPath: m_Name
       value: Torreta
@@ -546,8 +550,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7501226979818213896, guid: f30b88451d6e84da7a216bd531efe3a3, type: 3}
-      propertyPath: bullet
-      value: 
-      objectReference: {fileID: 1055221958697671900, guid: 85f257c1ffa0d4bc5a02858ae8b13ae6, type: 3}
+      propertyPath: force
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f30b88451d6e84da7a216bd531efe3a3, type: 3}
