@@ -22,12 +22,17 @@ public class APSensor : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Entro el trigger" + other.gameObject.name);
-        torreta.Shoot();
+
+        
     }
 
     private void OnTriggerStay(Collider other)
     {
         Debug.Log("Activao" + other.gameObject.name);
+        if (other.gameObject.GetComponent<APPlayer>())
+        {
+            torreta.Shoot();
+        }
     }
 
     private void OnTriggerExit(Collider other)
