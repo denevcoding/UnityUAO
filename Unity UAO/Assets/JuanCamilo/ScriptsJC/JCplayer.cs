@@ -13,6 +13,16 @@ public class JCplayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       
+      
+      
+    }
+
+    public void Die()
+    {
+
+        gameObject.SetActive(false);
+       // Destroy(this.gameObject);
+
     }
 }

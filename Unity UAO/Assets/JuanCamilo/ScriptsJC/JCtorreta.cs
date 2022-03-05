@@ -9,6 +9,8 @@ public class JCtorreta : MonoBehaviour
     public GameObject bullet;
     public Transform Aimer;
 
+    public GameObject player;
+
 
     // Start is called before the first frame update
     void Start()
@@ -21,12 +23,32 @@ public class JCtorreta : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("shoot");
-            GameObject bullettemp = Instantiate(bullet);
-            bullet.transform.position = Aimer.position;
-
-
+            shoot();
         }
-      
+
+    }
+
+    public void shoot()
+    {
+        Debug.Log("shoot");
+        GameObject bullettemp = Instantiate(bullet);
+        bullettemp.transform.position = Aimer.position;
+
+        Rigidbody rbBullet = bullettemp.GetComponent<Rigidbody>();
+
+        Vector3 dir = player.transform.position - Aimer.transform.position;
+
+        Debug.DrawLine(Aimer.transform.position, player.transform.position, Color.blue, 5f);
+        dir.Normalize();
+
+
+        //dir = dir * force;
+        dir *= force;
+        //Vector3 shootForce = Aimer.right * force;
+        rbBullet.AddForce(dir, ForceMode.Impulse);
+
+
+
+
     }
 }
