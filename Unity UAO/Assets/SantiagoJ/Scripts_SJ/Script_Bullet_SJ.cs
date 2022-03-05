@@ -15,4 +15,10 @@ public class Script_Bullet_SJ : MonoBehaviour
     {
         Destroy(gameObject, 2);
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log("Choque");
+        Destroy(gameObject, 2);
+    }
 }
