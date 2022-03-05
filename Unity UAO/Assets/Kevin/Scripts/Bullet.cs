@@ -18,10 +18,12 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        
-        if (collision.gameObject.GetComponent<Player>())
+       Player Player = collision.gameObject.GetComponent<Player>();
+
+        if (Player)
         {
             Debug.Log("choque con un pendejo");
+            Player.Die();
         }
 
         Destroy(this.gameObject);

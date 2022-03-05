@@ -7,6 +7,8 @@ public class KVTorret : MonoBehaviour
     public float force;
     public GameObject bullet;
     public Transform aimer;
+    public GameObject Player;
+
 
 
     // Start is called before the first frame update
@@ -27,6 +29,14 @@ public class KVTorret : MonoBehaviour
             Rigidbody rBullet = bulletTemp.GetComponent<Rigidbody>();
             Vector3 shootForce = aimer.right * force;
             rBullet.AddForce(shootForce, ForceMode.Impulse);
+
+            Vector3 Dir = Player.transform.position - aimer.transform.position;
+
+            Debug.DrawLine(aimer.transform.position, Player.transform.position, Color.green, 5f);
+            Dir.Normalize();
+            Dir = Dir * force;
+
+
         }
     }
 }
