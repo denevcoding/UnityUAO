@@ -21,7 +21,9 @@ public class Bullet : MonoBehaviour
         
         if (collision.gameObject.GetComponent<Player>())
         {
-            Debug.Log("choque con player");
+            Debug.Log("choque con un pendejo");
         }
+
+        Destroy(this.gameObject);
     }
 }
