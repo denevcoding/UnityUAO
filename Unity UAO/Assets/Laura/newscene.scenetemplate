@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13966, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: newscene
+  m_EditorClassIdentifier: 
+  templateScene: {fileID: 102900000, guid: d8336ef18eebea64fa49e5e6e1e67737, type: 3}
+  templateName: 
+  description: 
+  preview: {fileID: 0}
+  dependencies:
+  - dependency: {fileID: 6195045769194790197, guid: e27ba0356cf7ab544b0b372f0c2dc351, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2290351161350819973, guid: 4e201c95210f7ae439259678d2752633, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 75702ed1f7296fd45bec5d6722319fc7, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: f49593a1c05f25d4daca27cd38e59948, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 868bb7893227e8b47a2413edcfe9bd89, type: 2}
+    instantiationMode: 0
+  templatePipeline: {fileID: 0}
+  addToDefaults: 0
